@@ -3,7 +3,7 @@ package com.kremer.headpiker.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.kremer.headpiker.HeadSpiker;
+import com.kremer.headspiker.HeadSpikerGame;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener getApplicationListener () {
-                return new HeadSpiker();
+                return new HeadSpikerGame();
         }
 }
